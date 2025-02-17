@@ -15,7 +15,7 @@ function fetchWeather() {
     }
 
     document.getElementById("loading").classList.remove("hidden");
-    const apiUrl = `http://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=${city}&days=5&aqi=yes`;
+    const apiUrl = `https://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=${city}&days=5&aqi=yes`;
 
     fetch(apiUrl)
         .then(response => response.json())
