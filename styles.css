@@ -220,6 +220,7 @@ button:hover {
     /* Weather Card Mobile Optimization */
     .weather-card {
         width: flex;
+        height: flex;
         margin: 10px 0;
         padding: 18px;
         border-radius: 14px;
