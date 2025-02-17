@@ -180,16 +180,33 @@ button:hover {
         flex-direction: column;
         background: transparent;
         box-shadow: none;
+        align-items: center; /* Center items */
+        gap: 10px;
     }
-    
-    input, button {
+
+    .search-box input {
         width: 100%;
+        max-width: 90%; /* Adjust for padding */
     }
-    
+
+    .search-box button {
+        width: 100%;
+        max-width: 90%; /* Ensure buttons are not too wide */
+        padding: 12px;
+        font-size: 16px;
+    }
+
+    .toggle-btn {
+        width: auto;
+        margin: 10px auto;
+        padding: 10px 20px;
+        display: block;
+    }
+
     .forecast {
         grid-template-columns: repeat(2, 1fr);
     }
-    
+
     .weather-card {
         padding: 20px;
     }
